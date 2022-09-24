@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tailwind-->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!--Css-->
+    <link rel="stylesheet"  href="css/main.css">
+    <title>Vostok</title>
+</head>
+<body>
+    <main>
+        <!--Container-->
+        <div class="container">
+            <!--hero section-->
+            
+            <section class="hero flex gap-10 mt-20">
+                <div class="flex flex-col">
+                    <h1 class="sm:text-3xl md:text-4xl lg:text-5xl">Поставщик Дальнего Востока</h1>
+                    <p class="mt-20 font-normal">
+                        Наши клиенты получают полный спектр услуг по работе с Китаем. Начиная с подбора производителя заканчивая доставкой товара до двери. Настолько прозрачных сделок с Китаем вы еще не осуществляли.
+                    </p>
+                    <a class="underline  font-bold mt-5" href="#">Узнать больше</a>
+                </div>
+                <img class="hero__img w-2/4 mt-10" src="images/track.png">    
+            </section>
+            <!--Hero section card-->
+            <div class="card mt-10 w-4/5 shadow-2xl rounded-2xl pt-16 pb-24 pl-20 pr-24">
+                <ul class="card__ul grid grid-cols-3 gap-8">
+                    <li>
+                        <img src="images/Vector.svg">
+                        <p class="font-semibold mt-5">
+                            Поиск производителей по товару
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.
+                        </p>
+                    </li>
+                  
+                    <li class="border-l-2 border-r-2">
+                        <img src="images/Vector2.svg">
+                        <p class="font-semibold mt-5">
+                            Поиск производителей по товару
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.
+                        </p>
+                    </li>
+
+                    <li>
+                        <img  src="images/Vector.svg">
+                        <p class="font-bold mt-5">
+                            Поиск производителей по товару
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+          
+         <!--Form radio section-->
+            <section class="new mt-20">
+                <div class="w-1/2">
+                    <h2 class="text-4xl font-semibold">
+                        В какой сфере вы работаете?
+                    </h2>
+                    <p class="mt-5 mb-3">
+                        Мы проводим опрос среди пользователей сайта, чтобы предоставить Вам информацию соответствующую сфере Вашей деятельности.
+                    </p>
+                </div>    
+                    <div class="flex gap-32">
+                        <form class="w-1/2" action="/action_page.php">
+                            <ul>
+                                <li class="shadow-2xl w-2\/3  rounded-xl pt-10 pb-10 pl-20 pr-32 hover:shadow-md">
+                                    <input class="w-6 h-6 " type="radio" id="html" name="fav_language" value="HTML">
+                                    <label  class="font-semibold text-xl" for="html">Я работаю на произвостве</label>
+                                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                </li>
+
+                                <li class="shadow-2xl w-2\/3 rounded-xl pt-10 pb-10 pl-20 pr-32 hover:shadow-md">
+                                    <input class="w-6 h-6 " type="radio" id="css" name="fav_language" value="CSS">
+                                    <label class="font-semibold text-xl" for="css">Я поставляю товары</label>
+                                    <p class="mt-3">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    </p>
+                                </li>
+                                
+                                <li class="shadow-2xl w-2\/3 rounded-xl pt-10 pb-10 pl-20 pr-32 hover:shadow-md">
+                                    <input class="w-6 h-6 " type="radio" id="javascript" name="fav_language" value="JavaScript">
+                                    <label class="font-semibold text-xl" for="javascript">Я помогаю подобрать оборудование</label>
+                                    <p class="mt-3">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    </p>
+                                </li>
+                            </ul>
+                        </form>
+                        <div>
+                            <p class="font-semibold">Проголосовало:</p>
+                            <p class="border-b-2"><span class="text-4xl font-semibold">1107</span>пользователей</p>
+                        </div>
+                    </div>
+                
+            </section>
+           <!--Truck Section-->
+            <div class="truck mt-10">
+                <img src="images/Rectangle 8.svg" width="769px" height="453px">
+            </div>
+            <div>
+                <!--Truck section list-->
+                <ul class="mt-10 grid gap-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+                    <li class="flex gap-10">
+                        <img src="images/self.svg">
+                        <div>
+                            <p class="font-semibold text-xl">Я помогаю подобрать оборудование</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="flex gap-10">
+                        <img src="images/list.svg">
+                        <div>
+                            <p class="font-semibold text-xl">Я помогаю подобрать оборудование</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="flex gap-10">
+                        <img src="images/dolor.svg">
+                        <div>
+                            <p class="font-semibold text-xl">Я помогаю подобрать оборудование</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="flex gap-10">
+                        <img src="images/world.svg">
+                        <div>
+                            <p class="font-semibold text-xl">Я помогаю подобрать оборудование</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.
+                            </p>
+                        </div>
+                    </li>                
+                    
+                </ul>
+            </div>
+           <!--Work section-->
+            <section class="mt-20">
+                <div class="w-1/2 mb-12">
+                    <h2 class="text-4xl font-semibold">Выполненные работы</h2>
+                    <p class="mt-8">
+                        Мы собрали информацию по грузам, которые мы уже доставили.У нас специальный подход к каждому виду товаров.
+                    </p>
+                </div>
+
+                <ul class="grid grid-cols-3 gap-6 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 ">
+                    <li class="shadow-2xl p-2 rounded-3xl hover:shadow-none">
+                        <img class="sm:w-full h-64 " src="images/Rectangle 12.png">
+                        <p class="font-semibold text-xl mt-6 mb-4">Станки и оборудование</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
+                        <p class="mt-8 mb-8 font-semibold underline">20 000 руб.</p>
+                    </li>
+
+                    <li class="shadow-2xl p-2 rounded-3xl hover:shadow-none">
+                        <img class="sm:w-full h-64 " src="images/Rectangle 13.png">
+                        <p class="font-semibold text-xl mt-6 mb-4">Компоненты и запчасти</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
+                        <p class="mt-8 mb-8 font-semibold underline">18 000 руб.</p>
+                    </li>
+
+                    <li class="shadow-2xl p-2 rounded-3xl hover:shadow-none sm:hidden  md:block">
+                        <img class="sm:w-full h-64 " src="images/Rectangle 14.png">
+                        <p class="font-semibold text-xl mt-6 mb-4">Станки и оборудование</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut.</p>
+                        <p class="mt-8 mb-8 font-semibold underline">20 000 руб.</p>
+                    </li>
+                </ul>
+            </section>
+            <!--section-->
+            <section>
+                <h2 class="text-4xl font-semibold mt-16">Этапы поставки </h2>
+                <ul class="grid grid-cols-1 gap-6">
+                    <li class="flex gap-6 p-6 shadow-2xl rounded-3xl hover:shadow-md">
+                        <img class="sm:hidden md:block" src="images/partner.png">
+                        <div>
+                            <p class="font-semibold text-xl mb-12">Предложение от продавца</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis urna cursus eget nunc scelerisque viverra mauris in. 
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="flex gap-6 p-6 shadow-2xl rounded-3xl  hover:shadow-md">
+                        <img class="sm:hidden md:block" src="images/delivery.png">
+                        <div>
+                            <p class="font-semibold text-xl mb-12">Предложение от продавца</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis urna cursus eget nunc scelerisque viverra mauris in. 
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="flex gap-6 p-6 shadow-2xl rounded-3xl hover:shadow-md">
+                        <img class="sm:hidden md:block" src="images/work.png">
+                        <div>
+                            <p class="font-semibold text-xl mb-12c">Предложение от продавца</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis urna cursus eget nunc scelerisque viverra mauris in. 
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <!--Companies logo-->
+            <section>
+                <h2 class="text-4xl font-semibold mt-16">Нам доверяют</h2>
+                <ul class="gap-8 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 sm:grid">
+                    <li>
+                        <img src="images/rosatom.svg">
+                        <p class= "mt-3">Корпорация атомной энергии</p>
+                    </li>
+                    <li>
+                        <img src="images/gazprom.svg">
+                        <p class="font-semibold">Газпром</p>
+                        <p class= "mt-3">Корпорация атомной энергии</p>
+                    </li>
+                    <li>
+                        <img src="images/rosneft.svg">
+                        <p class="mt-3">Корпорация атомной энергии</p>
+                    </li>
+                    <li>
+                        <img src="images/roskosmos.svg">
+                        <p class="mt-3">Корпорация атомной энергии</p>
+                    </li>
+                    <li>
+                        <img src="images/lukoil.svg">
+                        <p class="font-semibold">Лукойл</p>
+                        <p class="mt-3">Корпорация атомной энергии</p>
+                    </li>
+                    <li>
+                        <img src="images/interraoes.svg">
+                        <p class="font-semibold">Интер РАО</p>
+                        
+                    </li>
+                    <li>
+                        <img src="images/rostec.svg">
+                        <p class="mt-3">Корпорация атомной энергии</p>
+                    </li>
+                    <li>
+                        <img src="images/btb.svg">
+                        <p class="font-semibold">Банк ВТБ</p>
+                        <p class="mt-3">Корпорация атомной энергии</p>
+                    </li>
+                </ul>
+
+            </section>
+            <!--Workers-->
+            <section>
+                <h2 class="text-4xl font-semibold mt-16 mb-12">Сотрудники компании</h2>
+                <ul class="gap-6 sm:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+                    <li class="flex gap-6 p-6 shadow-2xl rounded-3xl hover:shadow-md">
+                        <img src="images/anton.png">
+                        <div>
+                            <p class="font-semibold text-xl">Антон Макаров</p>
+                            <p>Руководитель компании</p>
+                        </div>
+                    </li>
+
+                    <li class="flex gap-6 p-6 shadow-2xl rounded-3xl hover:shadow-md">
+                        <img src="images/elena.png">
+                        <div>
+                            <p class="font-semibold text-xl">Антон Макаров</p>
+                            <p>Руководитель компании</p>
+                        </div>
+                    </li>
+
+                    <li class="flex gap-6 p-6 shadow-2xl rounded-3xl hover:shadow-md">
+                        <img src="images/elan.png">
+                        <div>
+                            <p class="font-semibold text-xl">Антон Макаров</p>
+                            <p>Руководитель компании</p>
+                        </div>
+                    </li>
+
+                    <li class="flex gap-6 p-6 shadow-2xl rounded-3xl hover:shadow-md sm:hidden md:block">
+                        <img src="images/boris.png">
+                        <div>
+                            <p class="font-semibold text-xl">Антон Макаров</p>
+                            <p>Руководитель компании</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-6 p-6 shadow-2xl rounded-3xl hover:shadow-md sm:hidden md:hidden lg:block">
+                        <img src="images/alina.png">
+                        <div>
+                            <p class="font-semibold text-xl">Антон Макаров</p>
+                            <p>Руководитель компании</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-6 p-6 shadow-2xl rounded-3xl hover:shadow-md sm:hidden md:hidden lg:block">
+                        <img src="images/viktor.png">
+                        <div>
+                            <p class="font-semibold text-xl">Антон Макаров</p>
+                            <p>Руководитель компании</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!--We Contact-->
+            <h2 class="text-4xl font-semibold mt-16 mb-12">Наши контакты</h2>
+            <section class="flex gap-64">
+                <ul class="flex flex-col gap-8">
+
+                    <li>
+                        <a class="flex gap-5" href="tel:+7 8422 99 666 5">    
+                            <img src="images/call.svg">
+                            <div>
+                                <p>Телефон</p>
+                                <p>+7 8422 99 666 5</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="flex gap-5" href="tel:+7 8422 99 666 5">    
+                            <img src="images/mail.svg">
+                            <div>
+                                <p>E-mail</p>
+                                <p>info@pdv.ooo</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="flex gap-5" href="tel:+7 8422 99 666 5">    
+                            <img src="images/whatsapp.svg">
+                            <div>
+                                <p>Whatsapp</p>
+                                <p>+86 158 666 95 616</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="flex gap-5" href="tel:+7 8422 99 666 5">    
+                            <img src="images/skype.svg">
+                            <div>
+                                <p>Skype</p>
+                                <p>sxy-bolts.cn</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <!--about section-->
+                <div>
+                    <ul class="flex flex-col gap-10">
+                        <li class="flex gap-10 border-b-2 hover:border-red-700">
+                            <p>Полное наименование:</p>
+                            <p>ООО "Поставщик Дальнего Востока"</p>
+                        </li>
+
+                        <li class="flex gap-32 border-b-2 hover:border-red-700">
+                            <p>ИНН</p>
+                            <p>7329023100</p>
+                        </li>
+
+                        <li class="flex gap-32 border-b-2 hover:border-red-700">
+                            <p>ИНН</p>
+                            <p>7329023100</p>
+                        </li>
+
+                        <li class="flex gap-32 border-b-2 hover:border-red-700">
+                            <p>ИНН</p>
+                            <p>7329023100</p>
+                        </li>
+                        <li class="flex gap-32">
+                            <p>ИНН</p>
+                            <p>7329023100</p>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!--You tube video-->
+            <section class="mb-20 ">
+                <div>
+                    <h2 class="text-4xl font-semibold mt-16 mb-12 text-center">Видео о нашей работе</h2>
+                    <p class="text-center w-84 mb-10">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Pharetra convallis posuere morbi leo urna. Eget sit amet tellus cras adipiscing. 
+                    </p>
+                </div>
+
+                <!--Youtube Video iframe-->
+                <iframe width="100%" height="621px"src="https://www.youtube.com/embed/ILNidiksELE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
